@@ -1,0 +1,24 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "trying to make a desktop because why not...",
+  "main": "src/server/main.js",
+  "scripts": {
+    "start": "node src/server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christoph-jeanluc-schneider/desktop.git"
+  },
+  "author": "Christoph Jean-Luc Schneider",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/christoph-jeanluc-schneider/desktop/issues"
+  },
+  "homepage": "https://github.com/christoph-jeanluc-schneider/desktop#readme",
+  "dependencies": {
+    "cookie-parser": "latest",
+    "express": "latest",
+    "helmet": "latest"
+  }
+}
